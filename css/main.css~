@@ -1,0 +1,98 @@
+@font-face 
+{
+  font-family: 'Product-Sans';
+  src: url('font/ProductSans-Regular.ttf');
+}
+
+html 
+{
+  font-family: 'Product-Sans';
+  background-color: #D4E3F8;
+}
+
+h1
+{
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+h2
+{
+  font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+h3
+{
+  font-size: 19px;
+  padding-left: 10px;
+}
+
+p, li
+{
+  font-size: 17px;
+  color: #666666;
+}
+
+li ul 
+{
+  padding-left: 20px;
+}
+
+
+p.c
+{
+  font-size: 17px;
+  color: #666666;
+  padding-top: 50px;
+}
+
+a, a:link, a:visited
+{
+  color: #666666;
+}
+
+img
+{
+  width: 128px;
+  float: right;
+}
+
+
+body 
+{
+  width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 75px;
+  padding-top: 30px;
+}
+
+@media (prefers-color-scheme: dark) 
+{
+  h1, h2, h3
+  {
+    color:#ffffff;
+  }
+
+  p, li 
+  { 
+    color:#999999;
+  }
+
+  p.c
+  {
+    color:#999999;
+  }
+
+  a:link, a:visited
+  {
+    color: #999999;
+  }
+
+  body 
+  {
+    background-color: #111111;
+  }
+}
