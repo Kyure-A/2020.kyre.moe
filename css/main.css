@@ -1,12 +1,12 @@
 @font-face 
 {
-  font-family: 'Product-Sans';
-  src: url('font/ProductSans-Regular.ttf');
+  font-family: "Product-Sans";
+  src: url('font/ProductSans-Regular.ttf') format("ttf");
 }
 
 html 
 {
-  font-family: 'Product-Sans';
+  font-family: "Product-Sans";
   background-color: #D4E3F8;
 }
 
