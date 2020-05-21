@@ -52,6 +52,7 @@ p.c
 a, a:link, a:visited
 {
   color: #666666;
+  text-decoration: none;
 }
 
 img
