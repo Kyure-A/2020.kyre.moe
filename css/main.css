@@ -33,6 +33,7 @@ p, li
 {
   font-size: 15px;
   color: #666666;
+  line-height: 1.5;
 }
 
 li ul 
@@ -53,6 +54,7 @@ a, a:link, a:visited
 {
   color: #666666;
   text-decoration: none;
+  line-height: 1.5;
 }
 
 img
