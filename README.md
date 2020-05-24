@@ -2,4 +2,4 @@
 キュレェのホームページです。
 
 
-Pullrequestください。
+Pull requestください。
