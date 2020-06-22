@@ -41,6 +41,10 @@ li ul
   padding-left: 15px;
 }
 
+strong
+{
+  color: #444444;
+}
 
 p.c
 {
@@ -84,7 +88,7 @@ body
 {
   html 
   {
-    background-color: #111111;
+    background-color: #121212;
   }
 
   h1, h2, h3
@@ -95,6 +99,11 @@ body
   p, li 
   { 
     color:#999999;
+  }
+
+  strong
+  {
+    color:#bbbbbb;
   }
 
   p.c
@@ -109,5 +118,5 @@ body
 
   body 
   {
-    background-color: #111111;
+    background-color: #121212;
   }
