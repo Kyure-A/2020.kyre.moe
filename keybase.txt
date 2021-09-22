@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kyure_a
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kyre.moe
+  * I am kyure_a (https://keybase.io/kyure_a) on keybase.
+  * I have a public key ASAXh1e-9tC6Ls0VNIO8rPU7RIYxI6RbMzd4uaCfIY7TyAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120178757bef6d0ba2ecd153483bcacf53b44863123a45b333778b9a09f218ed3c80a",
+      "host": "keybase.io",
+      "kid": "0120178757bef6d0ba2ecd153483bcacf53b44863123a45b333778b9a09f218ed3c80a",
+      "uid": "3ca886e9e2bd80b4cf02c0eebf46d719",
+      "username": "kyure_a"
+    },
+    "merkle_root": {
+      "ctime": 1632301748,
+      "hash": "831c1121e12a37bb1e2fb6c33bb818902dab15fe8edfb417911c01b1560f7cc0a26d2d5fc3e181b310bb6c8e13d9fcf10c07ba57c7df5996f8ce581154faf713",
+      "hash_meta": "3b42c4f961eaea27ced91565fd31a5ef8a3d5ab662ddf3c969649c656372c394",
+      "seqno": 20816068
+    },
+    "service": {
+      "entropy": "AuM7TUgwepHClMx7MWAmVHPp",
+      "hostname": "kyre.moe",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.7.0"
+  },
+  "ctime": 1632301808,
+  "expire_in": 504576000,
+  "prev": "fda3ba67fa066e48c308427882f2a83084222fd996aa3918b9eca2a9cb8b85d0",
+  "seqno": 188,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgF4dXvvbQui7NFTSDvKz1O0SGMSOkWzM3eLmgnyGO08gKp3BheWxvYWTES5cCzLzEIP2jumf6Bm5IwwhCeILyqDCEIi/Zlqo5GLnsoqnLi4XQxCC2GLGjynE2D7wxkAsgFT6f0vnvH5Oe5FCz7aPDr1Ro3gIBwqNzaWfEQIXsdZYbKPXmOhL0fe19HjOLJmtkbyZG5z5AIqUEAA7xNpHU/mknSaIamg+GuTPtKztlOx/9glxz/qEXICqqQQWoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBsnJPU/kQqTmUSXsXVgZz5ta+74Unfqb7jwIT0EERNw6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kyure_a
+
+==================================================================
