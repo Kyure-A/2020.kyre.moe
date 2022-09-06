@@ -1,122 +1,122 @@
 @font-face {
-  font-family: 'Product Sans';
-  font-style: normal;
-  src: url('https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2') format('woff2'),
-       url('font/ProductSans-Regular.ttf') format('ttf');;
+    font-family: 'Product Sans';
+    font-style: normal;
+    src: url('https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2') format('woff2'),
+	 url('font/ProductSans-Regular.ttf') format('ttf');;
 }
 
 html 
 {
-  background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 h1
 {
-  font-size: 40px;
-  padding-bottom: 30px;
+    font-size: 40px;
+    padding-bottom: 30px;
 }
 
 h2
 {
-  font-size: 22px;
-  padding-top: 20px;
-  padding-bottom: 10px;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 h3
 {
-  font-size: 19px;
-  padding-left: 10px;
+    font-size: 19px;
+    padding-left: 10px;
 }
 
 p, li
 {
-  font-size: 15px;
-  color: #666666;
-  line-height: 1.5;
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.5;
 }
 
 li ul 
 {
-  padding-left: 15px;
+    padding-left: 15px;
 }
 
 strong
 {
-  color: #444444;
+    color: #444444;
 }
 
 p.copyright
 {
-  font-size: 15px;
-  color: #666666;
-  padding-top: 50px;
-  padding-bottom: 60px;
+    font-size: 15px;
+    color: #666666;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 
 a, a:link, a:visited
 {
-  color: #666666;
-  text-decoration: none;
-  line-height: 1.5;
+    color: #666666;
+    text-decoration: none;
+    line-height: 1.5;
 }
 
 img
 {
-  width: 128px;
-  float: right;
+    width: 128px;
+    float: right;
 }
 
 hr 
 {
-  border: 0
-  border-top: 1px solid;
+    border: 0
+	    border-top: 1px solid;
 }
 
 body 
 {
-  font-family: 'Product Sans';
-  width: 375px;
-  margin: 0 auto;
-  background-color: #ffffff;
-  padding: 75px;
-  padding-top: 30px;
-  padding-bottom: 50px;
+    font-family: 'Product Sans';
+    width: 375px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 75px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 @media (prefers-color-scheme: dark) 
 {
   html 
   {
-    background-color: #121212;
+      background-color: #121212;
   }
 
   h1, h2, h3
   {
-    color:#ffffff;
+      color:#ffffff;
   }
 
   p, li 
   { 
-    color:#999999;
+      color:#999999;
   }
 
   strong
   {
-    color:#bbbbbb;
+      color:#bbbbbb;
   }
 
   p.c
   {
-    color:#999999;
+      color:#999999;
   }
 
   a:link, a:visited
   {
-    color: #999999;
+      color: #999999;
   }
 
   body 
   {
-    background-color: #121212;
+      background-color: #121212;
   }
