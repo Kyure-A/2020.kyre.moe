@@ -14,6 +14,7 @@
     --background-color-dark: #121212;
     --kyre-hear-color-light: #d4f0ff;
     --kyre-hear-color-dark: #d4e3f8;
+    --twitter-brand-color: #55acee;
     --kyre-ribbon-color-light: #ef7374;
     --kyre-ribbon-color-dark: #cf7374;
 }
@@ -28,8 +29,8 @@ h1
     font-size: 40px;
     padding-bottom: 30px;
     display: inline-block;
-    background: linear-gradient(135deg, #d4f0ff 0%, #55acee 40%, var(--kyre-ribbon-color-light) 80%);
-    background: -webkit-linear-gradient(-45deg, #d4f0ff 0%, #55acee 40%, var(--kyre-ribbon-color-light) 80%);
+    background: linear-gradient(135deg, var(--kyre-hear-color-light) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-light) 80%);
+    background: -webkit-linear-gradient(-45deg, var(--kyre-hear-color-light) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-light) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -45,8 +46,8 @@ h2.gradation
 {
     font-size: 22px;
     display: inline-block;
-    background: linear-gradient(135deg, #d4f0ff 0%, #55acee 40%, var(--kyre-ribbon-color-light) 80%);
-    background: -webkit-linear-gradient(-45deg, #d4f0ff 0%, #55acee 40%, var(--kyre-ribbon-color-light) 80%);
+    background: linear-gradient(135deg, var(--kyre-hear-color-light) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-light) 80%);
+    background: -webkit-linear-gradient(-45deg, var(--kyre-hear-color-light) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-light) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -113,7 +114,7 @@ p.footer
 p.footer a
 {
     font-size: 15px;
-    color: #999999;
+    color: var(--chr-color-light);
 }
 
 a, a:link, a:visited
@@ -155,8 +156,8 @@ body
 
   h1, h2.gradation
   {
-      background: linear-gradient(135deg, #d4e3f8 0%, #55acee 40%, var(--kyre-ribbon-color-dark) 80%);
-      background: -webkit-linear-gradient(-45deg, #d4e3f8 0%, #55acee 40%, var(--kyre-ribbon-color-dark) 80%);
+      background: linear-gradient(135deg, var(--kyre-hear-color-dark) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-dark) 80%);
+      background: -webkit-linear-gradient(-45deg, var(--kyre-hear-color-dark) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-dark) 80%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
   }
