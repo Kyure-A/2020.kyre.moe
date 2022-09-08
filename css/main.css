@@ -128,6 +128,7 @@ img
 {
     width: 128px;
     float: right;
+    border-radius: 30%;
 }
 
 hr 
@@ -176,13 +177,23 @@ body
   {
       color: var(--chr-color-dark);
   }
+
+  p.footer_top a
+  {
+      color: var(--chr-color-dark);
+  }
   
   p.footer
   {
       color: var(--chr-color-dark);
   }
 
-  a:link, a:visited
+  p.footer a
+  {
+      color: var(--chr-color-dark);
+  }
+
+  a, a:link, a:visited
   {
       color: var(--chr-color-dark);
   }
