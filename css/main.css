@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Product Sans';
+    font-family: 'Google Sans';
     font-style: normal;
     src: url('https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2') format('woff2'),
 	 url('font/ProductSans-Regular.ttf') format('ttf');;
@@ -62,12 +62,30 @@ strong
     color: #444444;
 }
 
-p.copyright
+p.footer_top
 {
     font-size: 15px;
     color: #666666;
     padding-top: 50px;
-    padding-bottom: 60px;
+}
+
+p.footer_top a
+{
+    font-size: 15px;
+    color: #999999;
+}
+
+p.footer
+{
+    font-size: 15px;
+    color: #666666;
+    margin-top: -15px;
+}
+
+p.footer a
+{
+    font-size: 15px;
+    color: #999999;
 }
 
 a, a:link, a:visited
@@ -91,7 +109,7 @@ hr
 
 body 
 {
-    font-family: 'Product Sans';
+    font-family: 'Google Sans';
     width: 375px;
     margin: 0 auto;
     background-color: #ffffff;
