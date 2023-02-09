@@ -31,7 +31,7 @@ h1
     background: -webkit-linear-gradient(-45deg, var(--kyre-hear-color-light) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-light) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: 900;
+    font-weight: 900
 }
 
 h2
@@ -156,7 +156,7 @@ hr
 
 body 
 {
-    font-family: 'M PLUS 2', sans-serif;
+    font-family: 'M PLUS 1', sans-serif;
     width: 375px;
     margin: 0 auto;
     background-color: var(--background-color-light);
