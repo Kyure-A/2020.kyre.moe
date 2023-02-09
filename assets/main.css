@@ -17,9 +17,141 @@
     --kyre-ribbon-color-dark: #cf7374;
 }
 
-html 
+@media (prefers-color-scheme: light)
 {
-    background-color: var(--background-color-light);
+    html 
+    {
+	background-color: var(--background-color-light);
+    }
+    
+    body
+    {
+	background-color: var(--background-color-light);
+    }
+
+    h1, h2.gradation
+    {
+	background: linear-gradient(135deg, var(--kyre-hear-color-light) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-light) 80%);
+	background: -webkit-linear-gradient(-45deg, var(--kyre-hear-color-light) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-light) 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    }
+
+    strong
+    {
+	color: #444444;
+    }
+
+    p, li
+    {
+	color: var(--chr-color-light);
+    }
+
+    p.footer_top
+    {
+	color: var(--chr-color-light);
+    }
+
+    p.footer_top a
+    {
+	color: var(--chr-color-light);
+    }
+
+    p.footer
+    {
+	color: var(--chr-color-light);
+    }
+
+    p.footer a
+    {
+	color: var(--chr-color-light);
+    }
+
+    p.footer_bottom
+    {
+	color: var(--chr-color-light);
+    }
+
+    p.footer_bottom a
+    {
+	color: var(--chr-color-light);
+    }
+
+    a, a:link, a:visited
+    {
+	color: var(--chr-color-light);
+    }
+}
+
+@media (prefers-color-scheme: dark) 
+{
+    html, body
+    {
+	background-color: var(--background-color-dark);
+    }
+
+    h1, h2.gradation
+    {
+	background: linear-gradient(135deg, var(--kyre-hear-color-dark) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-dark) 80%);
+	background: -webkit-linear-gradient(-45deg, var(--kyre-hear-color-dark) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-dark) 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    }
+
+    strong
+    {
+	color:#bbbbbb;
+    }
+
+    p, li 
+    { 
+	color: var(--chr-color-dark);
+    }
+
+    p.footer_top
+    {
+	color: var(--chr-color-dark);
+    }
+
+    p.footer_top a
+    {
+	color: var(--chr-color-dark);
+    }
+    
+    p.footer
+    {
+	color: var(--chr-color-dark);
+    }
+
+    p.footer a
+    {
+	color: var(--chr-color-dark);
+    }
+
+    p.footer_bottom
+    {
+	color: var(--chr-color-dark);
+    }
+
+    p.footer_bottom a
+    {
+	color: var(--chr-color-dark);
+    }
+
+    a, a:link, a:visited
+    {
+	color: var(--chr-color-dark);
+    }
+}
+
+body 
+{
+    font-family: 'M PLUS 1', sans-serif;
+    width: 375px;
+    margin: 0 auto;
+    padding: 75px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 h1
@@ -27,10 +159,6 @@ h1
     font-size: 40px;
     padding-bottom: 30px;
     display: inline-block;
-    background: linear-gradient(135deg, var(--kyre-hear-color-light) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-light) 80%);
-    background: -webkit-linear-gradient(-45deg, var(--kyre-hear-color-light) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-light) 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
 
@@ -46,10 +174,6 @@ h2.gradation
     font-size: 22px;
     font-weight: bold;
     display: inline-block;
-    background: linear-gradient(135deg, var(--kyre-hear-color-light) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-light) 80%);
-    background: -webkit-linear-gradient(-45deg, var(--kyre-hear-color-light) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-light) 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 h3
@@ -61,7 +185,6 @@ h3
 p, li
 {
     font-size: 15px;
-    color: var(--chr-color-light);
     line-height: 1.5;
 }
 
@@ -91,53 +214,41 @@ ul ul
     padding-bottom: 5px;
 }
 
-strong
-{
-    color: #444444;
-}
-
 p.footer_top
 {
     font-size: 15px;
-    color: var(--chr-color-light);
     padding-top: 50px;
 }
 
 p.footer_top a
 {
     font-size: 15px;
-    color: var(--chr-color-light);
 }
 
 p.footer
 {
     font-size: 15px;
-    color: var(--chr-color-light);
     margin-top: -15px;
 }
 
 p.footer a
 {
     font-size: 15px;
-    color: var(--chr-color-light);
 }
 
 p.footer_bottom
 {
     font-size: 15px;
-    color: var(--chr-color-light);
     padding-top: 20px;
 }
 
 p.footer_bottom a
 {
     font-size: 15px;
-    color: var(--chr-color-light);
 }
 
 a, a:link, a:visited
 {
-    color: var(--chr-color-light);
     text-decoration: none;
     line-height: 1.5;
 }
@@ -154,79 +265,3 @@ hr
     border: 0;
     border-top: 1px solid;
 }
-
-body 
-{
-    font-family: 'M PLUS 1', sans-serif;
-    width: 375px;
-    margin: 0 auto;
-    background-color: var(--background-color-light);
-    padding: 75px;
-    padding-top: 30px;
-    padding-bottom: 50px;
-}
-
-@media (prefers-color-scheme: dark) 
-{
-  html 
-  {
-      background-color: var(--background-color-dark);
-  }
-
-  h1, h2.gradation
-  {
-      background: linear-gradient(135deg, var(--kyre-hear-color-dark) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-dark) 80%);
-      background: -webkit-linear-gradient(-45deg, var(--kyre-hear-color-dark) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-dark) 80%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-  }
-
-  p, li 
-  { 
-      color: var(--chr-color-dark);
-  }
-
-  strong
-  {
-      color:#bbbbbb;
-  }
-
-  p.footer_top
-  {
-      color: var(--chr-color-dark);
-  }
-
-  p.footer_top a
-  {
-      color: var(--chr-color-dark);
-  }
-  
-  p.footer
-  {
-      color: var(--chr-color-dark);
-  }
-
-  p.footer a
-  {
-      color: var(--chr-color-dark);
-  }
-
-  p.footer_bottom
-  {
-      color: var(--chr-color-dark);
-  }
-
-  p.footer_bottom a
-  {
-      color: var(--chr-color-dark);
-  }
-
-  a, a:link, a:visited
-  {
-      color: var(--chr-color-dark);
-  }
-
-  body 
-  {
-      background-color: var(--background-color-dark);
-  }
