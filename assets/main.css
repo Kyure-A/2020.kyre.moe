@@ -44,6 +44,7 @@ h2
 h2.gradation
 {
     font-size: 22px;
+    font-weight: bold;
     display: inline-block;
     background: linear-gradient(135deg, var(--kyre-hear-color-light) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-light) 80%);
     background: -webkit-linear-gradient(-45deg, var(--kyre-hear-color-light) 0%, var(--twitter-brand-color) 40%, var(--kyre-ribbon-color-light) 80%);
