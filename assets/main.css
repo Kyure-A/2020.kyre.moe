@@ -155,7 +155,6 @@ hr
 
 body 
 {
-    font-family: 'Google Sans';
     width: 375px;
     margin: 0 auto;
     background-color: var(--background-color-light);
