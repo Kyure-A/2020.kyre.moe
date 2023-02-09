@@ -155,6 +155,7 @@ hr
 
 body 
 {
+    font-family: 'M PLUS 2', sans-serif;
     width: 375px;
     margin: 0 auto;
     background-color: var(--background-color-light);
